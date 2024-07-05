@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    padding: 0 8px;
+}
+
+.header {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 16px;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.first-part-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 64px;
+}
+
+.second-part-header {
+    display: flex;
+    align-items: center;
+
+}
+
+.feature-menu {
+    display: flex;
+    list-style: none;
+}
+
+.discover-menu {
+    display: flex;
+    list-style: none;
+}
+
+.icons-container {
+    margin-left: 28px;
+}
+
+.icons-container>img {
+    padding: 7.4px;
+}
+
+.hero-section {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.feature-section {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.feature-section-title-container {
+    text-align: center;
+}
+
+.feature-titles {
+    text-align: center;
+    font-size: 1.25vw;
+    line-height: 1.66666667vw;
+    padding-top: .27777778vw;
+    padding-bottom: .27777778vw;
+
+}
+
+.feature-rows-container {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.first-row {
+    display: flex;
+    gap: 24px;
+}
+
+.second-row {
+    display: flex;
+    gap: 24px;
+}
+
+.card {
+    width: 33.33%;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card>img {
+    mix-blend-mode: multiply;
+}
+
+.all offers {
+    padding: 6.14px 0;
+}
+
+.banner-section {
+    position: relative;
+    color: white;
+    margin-top: 48px;
+}
+
+.banner-text-container {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 88px;
+    color: black;
+
+}
+
+.banner-text-container>* {
+    margin: 0;
+    margin-bottom: 16px;
+
+}
+
+.banner-text-container>button {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 200px;
+    border-radius: 50px;
+
+
+}
+
+.key-feature {
+    position: relative;
+    display: flex;
+    top: 0;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+.key-feature-tabs {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    list-style: none;
+    margin: 2 vw;
+
+}
+
+ul.key-feature-tabs-list {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    list-style: none;
+}
+
+.bottom-header {
+    position: absolute;
+    top: 600px;
+    text-align: center;
+    width: 100%;
+}
+
+.bottom-btn {
+    position: absolute;
+    top: 750px;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.footer-title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px 0px;
+    border-top: 1px solid #d9d9d9;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.footer-title>h2 {
+    padding-left: 14.7px;
+    font-size: 14px;
+}
+
+.footer-title>p {
+    padding-left: 17.7px;
+}
+
+.footer-title> {}
+
+.footer-column-categories {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    list-style: none;
+    justify-content: center;
+    flex: auto;
+
+}
+
+.footer-column {
+    border-right: 1px solid #d9d9d9;
+    width: 20vw;
+
+}
+
+.footer-column>h3 {
+    font-size: 1.25vw;
+    padding: 9.7px 14.5px;
+
+}
+
+.footer-column>li {
+    font-size: .97222222vw;
+}
+
+
+
+.footer-copyright-wrap {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 0;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-copyright-align {
+    padding: 1.18055556vw .83333333vw 1.04166667vw 1.66666667vw;
+    font-size: .83333333vw;
+    width: 100%;
+    max-width: 1440px;
+    vertical-align: middle;
+
+}
+
+.footer-local-logo-item {
+    padding: 1.11111111vw 1.66666667vw 1.11111111vw .83333333vw;
+    vertical-align: middle;
+    display: flex;
+
+}
+
+
+.footer-language-wrap {
+    /* position: relative; */
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
